@@ -1,0 +1,346 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --mainBg: #000000;
+    --mainColor: #ffffff
+}
+
+/*scroll width */
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+/* scroll Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px grey;
+}
+
+/*scroll Handle */
+::-webkit-scrollbar-thumb {
+    background: #00c3da;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/* scroll Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00c5ff;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+
+
+/* Loading page starting */
+.loading-page {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainBg);
+    height: 100vh;
+}
+
+/* Loading page ending */
+
+/* Homme banner start*/
+
+#home {
+    background-image: url('../img/home-banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+}
+
+#home .home-bgLayer {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+#home header>.burgerBtn {
+    padding: 0.15em 0.5em;
+    display: block;
+    margin: 0.5em;
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 0.15em;
+}
+
+#home .sidenav {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#home .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+#home .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#home .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home .banner-text {
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+}
+
+#home .banner-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#home .banner-text span {
+    font-size: 0.75rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    display: inline-block;
+    margin: 0.5em 0;
+    margin-left: -0.5em;
+}
+#home .login-links button
+{
+    background:none ;
+    border: none;
+}
+.modal-header ul li {
+    /* display: inline-block; */
+    list-style-type: none;
+    
+  
+    
+}
+
+
+
+#home .login-links a {
+    font-size: 0.875rem;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    margin-right: 0.5em;
+    border-radius: 20px;
+    padding: 0.5em 1.5em;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 4px 12px;
+    position: relative;
+}
+
+#home .login-links a>i {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateY(-50%);
+    padding: 0 0.25em;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#home .login-links a:hover {
+    color: #2a2f38;
+    background-color: #fff;
+    transform: translateY(-4px);
+}
+
+#home .download-app a {
+    display: block;
+}
+
+.google-play-button {
+    height: 40px;
+}
+
+/* home banner end */
+/* About start */
+#about {
+    background-color: #fdfdfd;
+}
+
+#about img {
+    border-radius: 1em;
+}
+
+#about .aboutItem {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#about .aboutItemContent span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#about .aboutItemContent p {
+    font-size: 0.95rem;
+}
+
+#about .aboutItemContent p i {
+    font: 1.25rem;
+}
+
+#about .aboutDriverImgs {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    overflow: hidden
+}
+
+
+
+/* About end */
+/* map banner start */
+#mapBanner {
+    height: 50vh;
+    background-image: url('../img/mapBanner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+
+}
+
+#mapBanner i {
+
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--mainBg);
+    padding: 0.5em 0.55em;
+    border-radius: 50%;
+}
+
+#mapBanner h3 {
+    font-size: 2.5rem;
+    padding-top: 2em;
+    color: var(--mainColor);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* map banner end */
+
+/* learner Or Driver  start*/
+#learnerOrDriver span {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
+}
+
+#learnerOrDriver .learnerOrDriverSide {
+    text-align: center;
+    border-radius: 2px;
+    padding: 3em 0;
+    border:2px solid transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 0.5s;
+}
+#learnerOrDriver .learnerSide {
+    background: var(--mainBg);
+    color: var(--mainColor);
+    border-color: var(--mainBg);
+}
+#learnerOrDriver .learnerSide:hover {
+    background-color: var(--mainColor);
+    color: var(--mainBg);
+}
+#learnerOrDriver .learnerSide:hover .btn{
+    background-color: var(--mainBg);
+    color: var(--mainColor);
+}
+#learnerOrDriver .learnerSide .btn{
+    background-color: var(--mainColor);
+}
+#learnerOrDriver .driverSide {
+    background: var(--mainColor);
+    color: var(--mainBg);
+    border-color: var(--mainBg);
+}
+#learnerOrDriver .driverSide:hover {
+    background-color: var(--mainBg);
+    color: var(--mainColor);
+}
+#learnerOrDriver .driverSide:hover .btn{
+    background-color: var(--mainColor);
+    color: var(--mainBg);
+}
+#learnerOrDriver .driverSide .btn{
+    background-color: var(--mainBg);
+    color: var(--mainColor);
+}
+#learnerOrDriver .learnerOrDriverSide h3 {
+    margin-bottom: 1em;
+}
+
+/* learner Or Driver  end*/
+/* footer start */
+#footer{
+    background-color: var(--mainBg);
+}
+#footer .links-side a{
+    color: var(--mainColor);
+    display: block;
+    padding: 0.2em;
+}
+    
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
