@@ -65,6 +65,70 @@ a {
 
 /* Loading page ending */
 
+/* start settings box */
+
+.settings-box
+{
+   
+        position: fixed;
+        left: -250px;
+        top: 10%;
+        background-color: #FFF;
+        width: 250px;
+        z-index: 1000;
+        height: 84%;
+        transition: .3s;
+        border: 1px solid #f8f8f8;
+      
+}
+ .settings-box .toggle-settings img{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+
+    position: absolute;
+    right: -47px;
+    top: 30%;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+.settings-box.open{
+    left: 0;
+}
+.settings-box .option-box ul
+{
+    margin-top: 5%;
+}
+.settings-box .option-box ul li{
+ list-style: none;
+ /* padding-top: 30px; */
+ padding-top: 30px;
+   
+
+}
+.setting-list button
+{
+ border: none;
+ background: none;
+}
+.option-box .option-body
+{
+    margin-top: 5%;
+}
+.option-box img{
+    width: 80%;
+    height:80%;
+    border-radius: 50%;
+    text-align: center;
+}
+    
+
+
+
+/* end settings box */
+
+
 /* Homme banner start*/
 
 #home {

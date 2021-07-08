@@ -15,6 +15,37 @@
 
 <body>
     
+  <!-- start settings books -->
+
+  <div class="settings-box">
+    <div class="toggle-settings">
+           <img src="img/bugatti_PNG35.png" class="img-ico" alt="">
+    </div>
+    
+
+<div class="settings-container">
+  
+  <div class="option-box">
+    <img src="img/bugatti_PNG35.png" class="img-ico" alt="">
+<div class="option-body text-center">
+  
+  <h5> name : eslam eid</h5>
+  <p><label>email</label> : eng.eslam133@gmail.com</p>
+</div>
+    <ul class="setting-list">
+      <li ><button type="button"  data-bs-toggle="modal" data-bs-target="#update" data-bs-whatever="@mdo">update</button></li>
+      <li ><button type="button"  data-bs-toggle="modal" data-bs-target="#change-password" data-bs-whatever="@mdo">change password</button></li>
+      <li ><button type="button"  data-bs-toggle="modal" data-bs-target="#notification" data-bs-whatever="@mdo">notification</button></li>
+      <li ><button type="button"  data-bs-toggle="modal" data-bs-target="#help" data-bs-whatever="@mdo">help</button></li>
+      <li ><button type="button"  data-bs-toggle="modal" data-bs-target="#sign-out" data-bs-whatever="@mdo">sign out</button></li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+
+
+  <!-- end settings books -->
 
 <!-- Home starting -->
 <section id="home">
@@ -28,6 +59,7 @@
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Contact Us</a>
+          <a href="#">profile</a>
         </nav>
       </header>
     
@@ -40,7 +72,7 @@
         
           
           <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><a href="#">LEARNER <i class="fas fa-car-side"></i></a></button>
-          <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat"><a href="#">DRIVER <i class="fas fa-car-side"></i></a></button>
+          <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat"><a href="#">DRIVER <i class="fas fa-car"></i></a></button>
           
         
         </div>
@@ -149,7 +181,7 @@
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">sign in</button>
         </div>
-        <hr>
+        
         <div class="modal-cent text-center">
           <p>you dont have account?</p> <button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal2">sign up</button>
   
@@ -206,6 +238,178 @@
   </div>
 </div>
 
+<!-- modal update -->
+<div class="modal fade" id="update" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <ul>
+          <li>
+            <h2 class="modal-title" id="exampleModalLabel">update</h2></li>
+          
+        </ul>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">username:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">password:</label>
+            <input type="password" class="form-control" id="message-text"></input>
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">phone:</label>
+            <input type="password" class="form-control" id="message-text"></input>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">update</button>
+        </div>
+        
+        
+       
+    </div>
+  </div>
+</div>
+
+<!-- modal change password -->
+<div class="modal fade" id="change-password" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <ul>
+          <li>
+            <h2 class="modal-title" id="exampleModalLabel">change password</h2></li>
+          
+        </ul>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">old password:</label>
+            <input type="password" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">new password:</label>
+            <input type="password" class="form-control" id="message-text"></input>
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">confirm new password:</label>
+            <input type="password" class="form-control" id="message-text"></input>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">change</button>
+        </div>
+        
+        
+       
+    </div>
+  </div>
+</div>
+<!-- modal notification -->
+<div class="modal fade" id="notification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <ul>
+          <li>
+            <h2 class="modal-title" id="exampleModalLabel">notification</h2></li>
+          
+        </ul>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem soluta illo, voluptate ea, aspernatur tempore error, voluptatibus laborum beatae possimus modi dolorum tenetur quidem voluptates quibusdam sit quaerat aut blanditiis.</p>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+        </div>
+        
+        
+       
+    </div>
+  </div>
+</div>
+<!-- modal help -->
+<div class="modal fade" id="help" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <ul>
+          <li>
+            <h2 class="modal-title" id="exampleModalLabel">help</h2></li>
+          
+        </ul>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, excepturi. Fugit reiciendis, voluptate ullam ratione praesentium error numquam sapiente repellendus earum rerum repudiandae cumque atque quaerat delectus non esse consequuntur!</p>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+        </div>
+        
+        
+       
+    </div>
+  </div>
+</div>
+<!-- modal sign out -->
+<div class="modal fade" id="sign-out" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <ul>
+          <li>
+            <h2 class="modal-title" id="exampleModalLabel">sign out</h2></li>
+          
+        </ul>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+           <p>sure sign out </p>
+          </div>
+         
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">sign out</button>
+        </div>
+        
+        
+       
+    </div>
+  </div>
+</div>
+
 <!-- footer start -->
 <footer id="footer" class="mt-4">
   <div class="container py-5">
@@ -214,6 +418,8 @@
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
+        <a href="#">profile</a>
+
       </div>
       <div class="col-6 col-md-3">
         <a href="#"><img src="img/google-play-button.png" class="img-fluid google-play-button" alt="google play button"></a>
